@@ -1,7 +1,6 @@
-baseURL = "https://examplesite.com/"
+baseURL = "https://alon.com.np/"
 title = "Alon Shrestha"
 paginate = 5
-theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -15,7 +14,7 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
+title = "AAAAAA"
 description = "ExampleSite description"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Alon Shrestha"
@@ -28,7 +27,7 @@ ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
-ShowWordCount = true
+ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
@@ -116,31 +115,28 @@ SiteVerificationTag = "XYZabc"
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 20
+weight = 1
 
 [[menu.main]]
 identifier = "topics"
 name = "Topics"
 url = "/topics/"
-weight = 10
+weight = 2
 
 [[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
-weight = 10
+identifier = "blogs"
+name = "Blogs"
+url = "/blogs/"
+weight = 3
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
-
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
+identifier = "Reume"
+name = "My Resume"
+url = "https://alonshrestha.com.np"
+weight = 4
 
 [markup.highlight]
 noClasses = false
+
+[taxonomies]
+  topic = "topics"
