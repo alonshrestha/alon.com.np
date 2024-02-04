@@ -15,41 +15,41 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "AAAAAA"
+title = "asdasd"
 description = "ExampleSite description"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Alon Shrestha"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
-disableThemeToggle = false
+disableThemeToggle = true
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
-comments = false
+comments = true
 hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
 
   [params.assets]
-  favicon = "<link / abs url>"
-  favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+  favicon = "/images/favicon/favicon.ico"
+  favicon16x16 = "/images/favicon/favicon-16x16.png"
+  favicon32x32 = "/images/favicon/favicon-32x32.png"
+  apple_touch_icon = "/images/favicon/apple-touch-icon.png"
+  safari_pinned_tab = "/images/favicon/safari-pinned-tab.svg"
 
   [params.label]
   text = "@alonshrestha"
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
+  icon = "https://avatars.githubusercontent.com/u/48308179?v=4"
+  iconHeight = 45
 
   [params.profileMode]
   enabled = false
@@ -69,9 +69,25 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there, I'm Alon 👋"
-  Content = "Welcome to my blog asd asjdasdkljhaskljdh ashd Welcome to my blog asd asjdasdkljhaskljdh ashd Welcome to my blog asd asjdasdkljhaskljdh ashd"
+  Title = "[~] $ whoami"
+  Content = """
+  Hi! I'm Alon Shrestha 🙏 , hailing from the country of mountains 🏔️, Nepal 🇳🇵.
 
+  I've turned off the lights on this website to save your energy - you're welcome! 😄
+
+  Background in computer science, and currently, mastering ☁️ Cloud Infrastructure.
+  
+  Exploring places 🚀, playing music 🎸, learning , and documenting tech that I find cool are my hobbies.
+  
+  I've recently developed a passion for writing. I know, I'm still in the *'work-in-progress'* phase, but, who isn't? 
+  
+  Feel free to explore my latest blogs on topics I find fascinating: [Topics](/topics) & [Blogs](/blogs).
+  
+  [Discover more about me?](/about) or Up for a chat or sharing insights? Reach me at alonshstha@gmail.com ✉️.
+  
+  Let's connect and geek out together! ✌️
+  
+  """
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/"
@@ -93,24 +109,20 @@ SiteVerificationTag = "XYZabc"
 [params.analytics.yandex]
 SiteVerificationTag = "XYZabc"
 
-  [params.cover]
-  hidden = true
-  hiddenInList = true
-  hiddenInSingle = true
+[params.cover]
+hidden = true
+hiddenInList = false
+hiddenInSingle = false
 
-  [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
 
-  [params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1_000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = [ "title", "permalink", "summary", "content" ]
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
 identifier = "about"

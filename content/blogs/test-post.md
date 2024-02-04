@@ -1,26 +1,25 @@
 ---
 author: "Alon Shrestha"
-title: "Markdown Syntax Guide"
+title: "LOL..Test..Markdown Syntax Guide"
 date: "2019-03-11"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 # tags: ["markdown", "css", "html", "themes"]
 # categories: ["themes", "syntax"]
 topics: ["themes", "syntax"]
-series: ["Themes Guide"]
-aliases: ["migrate-from-jekyl"]
-cover:
-  image: /static/images/screenshot.png
-  caption: "Generated using [OG Image Playground by Vercel](https://og-playground.vercel.app/)"
-ShowToc: flase
-TocOpen: flase
+# series: ["Themes Guide"]
+# aliases: ["migrate-from-jekyl"]
+ShowToc: true
+TocOpen: false
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.....
 
 <!--more-->
+![ok](https://scdn.netlify.app/img/leetcode-cover-img.webp)
+<!-- ![](images/screenshot.png) -->
 
 ## Headings
-![Hello](/static/images/screenshot.png)
+
 The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
 # H1
