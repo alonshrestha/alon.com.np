@@ -1,4 +1,4 @@
-baseURL = "https://alon.com.np/"
+baseURL = "https://alon.com.np"
 title = "Alon Shrestha"
 paginate = 5
 enableRobotsTXT = true
