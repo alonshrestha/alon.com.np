@@ -45,6 +45,7 @@ tocopen = false
   favicon32x32 = "/images/favicon/favicon-32x32.png"
   apple_touch_icon = "/images/favicon/apple-touch-icon.png"
   safari_pinned_tab = "/images/favicon/safari-pinned-tab.svg"
+  disableFingerprinting = true
 
   [params.label]
   text = "@alonshrestha"
