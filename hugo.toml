@@ -22,7 +22,7 @@ author = "Alon Shrestha"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
-disableThemeToggle = true
+disableThemeToggle = false
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
@@ -49,7 +49,7 @@ tocopen = false
 
   [params.label]
   text = "@alonshrestha"
-  icon = "https://avatars.githubusercontent.com/u/48308179?v=4"
+  icon = "/images/homepage/alondp.jpg"
   iconHeight = 45
 
   [params.profileMode]
@@ -72,20 +72,18 @@ tocopen = false
   [params.homeInfoParams]
   Title = "[~] $ whoami"
   Content = """
-  Hi! I'm Alon Shrestha 🙏 , hailing from the country of mountains 🏔️, Nepal 🇳🇵.
+  👋 Hey, I'm Alon Shrestha from the land of ⛰️, Nepal 🇳🇵. 
 
-  I've turned off the lights on this website to save your energy - you're welcome! 😄
+  CS background, and currently mastering ☁️ Cloud Infrastructure.
 
-  Background in computer science, and currently, mastering ☁️ Cloud Infrastructure.
+  Exploring places 🚀, music enthusiast 🎸, and tech lover. 
+
+  I've recently developed a passion for writing. Still a *work-in-progress,* but, who isn't?
+
+  Check out my [latest blogs](/blogs) on fascinating [topics](/topics). 
   
-  Exploring places 🚀, playing music 🎸 and learning tech that I find cool are my hobbies.
-  
-  I've recently developed a passion for writing. I know, I'm still in the *'work-in-progress'* phase, but, who isn't? 
-  
-  Feel free to explore my [latest blogs](/blogs) on [topics](/topics) I find fascinating.
-  
-  [Discover more about me?](/about) or Up for a chat? Reach me at alonshstha@gmail.com ✉️.
-  
+  Wanna [know more](/about) or just chat? Reach me at alonshstha@gmail.com ✉️.
+
   Let's connect and geek out together! ✌️
   
   """

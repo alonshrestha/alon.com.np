@@ -7,6 +7,7 @@ description: "Sample article showcasing basic Markdown syntax and formatting for
 topics: []
 series: []
 aliases: []
+draft: true
 cover:
   image: img/path/
   alt: "Hello"
