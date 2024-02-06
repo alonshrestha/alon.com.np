@@ -72,17 +72,17 @@ tocopen = false
   [params.homeInfoParams]
   Title = "[~] $ whoami"
   Content = """
-  👋 Hey, I'm Alon Shrestha from the land of ⛰️, Nepal 🇳🇵. 
-
-  CS background, and currently mastering ☁️ Cloud Infrastructure.
+  👋 Hey, I'm Alon Shrestha from the land of mountains ⛰️, Nepal 🇳🇵. 
 
   Exploring places 🚀, music enthusiast 🎸, and tech lover. 
 
-  I've recently developed a passion for writing. Still a *work-in-progress,* but, who isn't?
+  CS background, and currently mastering ☁️ Cloud Infrastructure.
 
-  Check out my [latest blogs](/blogs) on fascinating [topics](/topics). 
-  
-  Wanna [know more](/about) or just chat? Reach me at alonshstha@gmail.com ✉️.
+  I've recently developed a passion for writing. Still a *work-in-progress,* but hey, who isn't?
+
+  Check out my [latest blogs](/blogs) on [topics](/topics) I find fascinating.
+
+  Wanna [know more](/about) or just chat? Reach me at 📥 alonshstha@gmail.com.
 
   Let's connect and geek out together! ✌️
   
