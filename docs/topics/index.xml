@@ -14,17 +14,17 @@
     <lastBuildDate>Sat, 27 Jan 2024 21:21:19 +0545</lastBuildDate>
     <atom:link href="https://alon.com.np/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>syntax</title>
-      <link>https://alon.com.np/topics/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://alon.com.np/topics/syntax/</guid>
+      <title>Backup &amp; Restore</title>
+      <link>https://alon.com.np/topics/backup-restore/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://alon.com.np/topics/backup-restore/</guid>
       <description></description>
     </item>
     <item>
-      <title>themes</title>
-      <link>https://alon.com.np/topics/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://alon.com.np/topics/themes/</guid>
+      <title>Linux</title>
+      <link>https://alon.com.np/topics/linux/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://alon.com.np/topics/linux/</guid>
       <description></description>
     </item>
   </channel>

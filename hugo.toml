@@ -39,65 +39,52 @@ hideSummary = false
 showtoc = false
 tocopen = false
 
-  [params.assets]
-  favicon = "/images/favicon/favicon.ico"
-  favicon16x16 = "/images/favicon/favicon-16x16.png"
-  favicon32x32 = "/images/favicon/favicon-32x32.png"
-  apple_touch_icon = "/images/favicon/apple-touch-icon.png"
-  safari_pinned_tab = "/images/favicon/safari-pinned-tab.svg"
-  disableFingerprinting = true
+[params.assets]
+favicon = "/images/favicon/favicon.ico"
+favicon16x16 = "/images/favicon/favicon-16x16.png"
+favicon32x32 = "/images/favicon/favicon-32x32.png"
+apple_touch_icon = "/images/favicon/apple-touch-icon.png"
+safari_pinned_tab = "/images/favicon/safari-pinned-tab.svg"
+disableFingerprinting = true
 
-  [params.label]
-  text = "@alonshrestha"
-  icon = "/images/homepage/alondp.jpg"
-  iconHeight = 45
+[params.label]
+text = "@alonshrestha"
+icon = "/images/homepage/alondp.jpg"
+iconHeight = 45
 
-  [params.profileMode]
-  enabled = false
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
+[params.profileMode]
+enabled = false
+title = "ExampleSite"
+subtitle = "This is subtitle"
+imageUrl = "<img location>"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
 
-    [[params.profileMode.buttons]]
+[[params.profileMode.buttons]]
     name = "Blogs"
     url = "blogs"
 
-    [[params.profileMode.buttons]]
+[[params.profileMode.buttons]]
     name = "Tags"
     url = "tags"
 
-  [params.homeInfoParams]
-  Title = "[~] $ whoami"
-  Content = """
-  👋 Hey, I'm Alon Shrestha from the land of mountains ⛰️, Nepal 🇳🇵. 
+[params.homeInfoParams]
+Title = "[~] $ whoami"
+Content = """
+👋, I'm Alon Shrestha. Computer Science background, and currently mastering Cloud Infrastructure. I've recently developed a passion for writing but still a *work-in-progress.*  Check out my [latest blogs](/blogs) on [topics](/topics) I find fascinating. Wanna [know more](/about) or just chat? Reach me at alonshstha@gmail.com. Let's connect and geek out together! ✌️
+"""
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/"
 
-  Exploring places 🚀, music enthusiast 🎸, and tech lover. 
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com"
 
-  CS background, and currently mastering ☁️ Cloud Infrastructure.
-
-  I've recently developed a passion for writing. Still a *work-in-progress,* but hey, who isn't?
-
-  Check out my [latest blogs](/blogs) on [topics](/topics) I find fascinating.
-
-  Wanna [know more](/about) or just chat? Reach me at 📥 alonshstha@gmail.com.
-
-  Let's connect and geek out together! ✌️
-  
-  """
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -151,4 +138,4 @@ weight = 4
 noClasses = false
 
 [taxonomies]
-  topic = "topics"
+topic = "topics"
