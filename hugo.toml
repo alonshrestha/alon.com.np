@@ -5,7 +5,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
+googleAnalytics = "G-EKGRJ57WET"
 pygmentsUseClasses = true
 publishDir = "docs"
 
@@ -87,7 +87,7 @@ name = "github"
 url = "https://github.com/"
 
 [params.analytics.google]
-SiteVerificationTag = "XYZabc"
+SiteVerificationTag = "G-EKGRJ57WET"
 
 [params.analytics.bing]
 SiteVerificationTag = "XYZabc"
