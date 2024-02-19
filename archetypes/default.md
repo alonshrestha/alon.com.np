@@ -1,7 +1,7 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 author: "Alon Shrestha"
-title: "New Post"
+pageheading: "Title For Page"
 date: {{ .Date }}
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 topics: []
