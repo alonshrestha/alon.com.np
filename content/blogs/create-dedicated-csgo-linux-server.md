@@ -3,7 +3,7 @@ title: 'Ultimate Guide to Set Up CS:GO Dedicated Server Linux'
 author: "Alon Shrestha"
 pageheading: "Ultimate Guide to Set Up Counter Strike:Global Offensive Dedicated Server in Linux"
 date: 2020-11-28
-description: "Easy guide to host your dedicated counter-strike: global offensive server on Linux server (ubuntu and centos)."
+description: "Easy guide to host your dedicated counter-strike: global offensive server on Linux(ubuntu and centos)."
 topics: [Linux]
 draft: false
 cover:
@@ -14,7 +14,7 @@ ShowToc: true
 TocOpen: false
 ---
 
-Do you think playing CS:GO with a ping rate of less than 5 is impossible? Think again! 
+Do you think playing CS:GO with a ping rate of less than 5 is possible? Think again!
 
 It is definitely possible when you host the game on a personal server. 
 
@@ -24,7 +24,7 @@ Want to know how to do this all?
 
 This article covers step-by-step instructions on how to host CS:GO on a dedicated linux server. 
 
-Follow the steps below and host your own server today!
+Follow the steps below and host your own cs:go server today!
 
 First step is to choose the server that meets your needs.
 
@@ -53,7 +53,7 @@ Get an affordable and reliable dedicated hosting server for CS:GO with Hostinger
 
 &#128073; {{< newtabref  href="https://www.hostg.xyz/SHA2B" title="www.hostinger.com" rel="nofollow">}}
 
-## How to Setup CS:GO on Linux(Ubuntu/CentOS)
+## Setup CS:GO on Linux(Ubuntu/CentOS)
 
 Login to the server with a root user account then install the libraries that support  steamCMD.
 
@@ -70,12 +70,12 @@ sudo apt-get install lib32gcc1
 yum install glibc.i686 libstdc++.i686
 ```
 
-**Step 2:** Create a separate user "steam".
+**Step 2:** Create a separate user `steam`.
 ```shell
 sudo useradd -m steam
 ```
 
-**Step 3:** Switch user to “steam”
+**Step 3:** Switch user to `steam`
 ```shell
 su - steam
 ```
@@ -85,7 +85,7 @@ su - steam
 mkdir ~/Steam && cd ~/Steam
 ```
 
-### Downloading and Installing SteamCMD
+### Download and Install SteamCMD
 
 **Step 5:** Download the latest version of SteamCMD.
 ```shell
@@ -126,11 +126,11 @@ force_install_dir ./cs_go/
 app_update 740 validate
 ```
 
-This may take some time. Once it's finished, you should see "Success! App '740' fully installed" on your screen.
+This may take some time. Once it's finished, you should see *"Success! App '740' fully installed"* on your screen.
 
 ![Downloading and Installing SteamCMD In Linux](/images/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/3.PNG)
 
-### Allowing TCP and UDP Ports for CS:GO Server Connection
+### Allow TCP and UDP Ports for CS:GO Server Connection
 To connect to the game server, make sure that TCP and UDP ports are allowed for all players. The default TCP and UDP port for CSGO server is 27015. 
 
 If your server doesn't allow required TCP and UDP traffic by default, you can find this option in your network settings. 
@@ -141,7 +141,7 @@ Alternatively, you can seek help from your hosting provider. Keep in mind that t
 
 In my case, I have allowed all TCP and UDP ports for everyone.
 
-### How to Generate a CS:GO Game Auth Token ID
+### Generate a CS:GO Game Auth Token ID
 To host a CS:GO game, you need a Steam Auth Token ID. Your Steam account must meet certain requirements to generate the ID. 
 
 You can check the {{< newtabref  href="https://steamcommunity.com/dev/managegameservers" title="requirements" rel="nofollow">}} and get your Auth Token ID by following the steps in the image below.
@@ -151,7 +151,7 @@ Note: The registered ID for the Counter-Strike: Global Offensive dedicated serve
 
 After following the steps, you will receive an Auth Token ID that looks similar to **"X38F6E71A3B8G6FE08354AF5BE078"**.
 
-## How to Run CS:GO on Dedicated Server
+## Run CS:GO on Dedicated Server
 To run the CS:GO server, you need to enter a specific command depending on the game mode you want to play. Before running the command, make sure that you are inside the `cs_go` directory. 
 
 Here's an example of the command:
@@ -173,7 +173,7 @@ Remember to replace "YOUR AUTH TOKEN" with your own authentication token.
 Once you've entered the command, you'll see the public IP of your game server.
 ![Downloading and Installing SteamCMD In Linux](/images/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/7.PNG)
 
-## How to Join a CS:GO Server
+## Join CS:GO Server
 
 To join a CS:GO server, you can use either of the following methods:
 
@@ -196,7 +196,7 @@ To join a CS:GO server, you can use either of the following methods:
 - Add your server IP to the list and connect to it.
 ![Downloading and Installing SteamCMD In Linux](/images/posts/how-to-create-your-own-csgo-counter-strike-global-offensive-dedicated-custom-server-ubuntu-centos/12.png)
 
-## How to Run CS:GO In Background
+## Run CS:GO In Background
 
 If you log out from the server, your game will be disconnected or stopped, and you can't host the game logged in 24x7. 
 
@@ -259,7 +259,7 @@ Next, refresh your favourite list and check the hostname. You should now see the
 
 If you want to customize your CS:GO game further, {{< newtabref  href="https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers" title="CS:GO advanced configuration" rel="nofollow">}} article can be a helpful resource.
 
-## How to Change CS:GO Tick Rate
+## Change CS:GO Tick Rate
 
 Tick rate refers to the frequency at which the game server updates the game state and sends the information to players. 
 
@@ -273,7 +273,7 @@ Add the following lines to the file:
 
 This simple step will improve your game performance and make your gameplay experience smoother. For more information on tick rates, you can refer to this {{< newtabref  href="https://win.gg/news/4379/explaining-tick-rates-in-fps-games-difference-between-64-and-128-tick" title="article" rel="nofollow">}}.
 
-## How to Update Your CS:GO Dedicated Server
+## Update Your CS:GO Dedicated Server
 Regular updates are released for CS:GO every week or month, and to keep your server running smoothly, it's important to update it as well. 
 
 To update your CS:GO game on your dedicated server, you need to follow the **steps 6 to 9** which involve from running SteamCMD to app update. These steps will guide you through the process of updating your game.
