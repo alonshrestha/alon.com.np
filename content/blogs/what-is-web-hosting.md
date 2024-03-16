@@ -19,24 +19,24 @@ One billion plus websites are live and running on the internet.
 
 Over 576,000 new websites are launched daily according to {{< newtabref  href="https://websitesetup.org/news/how-many-websites-are-there/" title="websitesetup.org" rel="nofollow">}}. But do you know where these websites are or how are they running?
 
-This page has the answers to these questions.
+The answer to these questions is web hosting.
 
 Web hosting means to put up a website online. It is as simple as that.
 
 To make it more clear, I would like to begin this article by defining a website.
 
 ## What is a Website?
-A website is set of web pages where we can write text, attach files, add media, and create links.
+A website is set of web pages where we can write text, attach files, add media and links.
 
-You're currently reading this article on a web page. 
+You're currently reading this on a web page. 
 
 If you scroll to the top, you'll see the title *'@alonshrestha'*. This title is a link, also known as a hyperlink, which connects to another web page.
 
 The collection of these connected web pages are called a website. 
 
-![What is Website | Website Vs Webpage](/images/posts/what-is-webhosting/web-page-vs-website.webp)
+![A single web page webiste and a multi webpages website](/images/posts/what-is-webhosting/1.webp)
 
-Note: *It does not mean a website should have multiple web pages. A website can also have a single web page.*
+📝 Note: *It does not mean a website should have multiple web pages. A website can also have a single web page.*
 
 Every page you visit on the browser is a website.
 
@@ -49,7 +49,8 @@ It is similar to uploading a video on YouTube or creating a post on social media
 
 Websites are uploaded on the servers. 
 
-![What is Web Hosting](/images/posts/web-hosting-nepal/image1.webp)
+![Uploading website on a server](/images/posts/what-is-webhosting/2.gif)
+
 
 A server is a powerful computer that stays connected to the internet constantly. Its major job is to fulfill user requests, such as ours.
 
@@ -83,11 +84,12 @@ You can simply drag and drop your website files on a server using a browser, sel
 
 These methods vary on the web host you choose.
 
-![How to host a website? | How Does it Work?](/images/posts/what-is-webhosting/webhosting.webp)
-
 After you upload a website, it's hosted on the server's IP address.
 
 To make it more professional and user-friendly, people use a domain name instead of the IP address.
+
+![How does domain name maps with ip address?](/images/posts/what-is-webhosting/3.webp)
+
 
 The domain name essentially masks the IP address of the server.
 
