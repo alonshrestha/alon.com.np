@@ -72,7 +72,7 @@ imageTitle = "my image"
 [params.homeInfoParams]
 Title = "[~] $ whoami"
 Content = """
-👋, I'm Alon Shrestha. Computer Science background, and currently mastering Cloud Infrastructure. I've recently developed a passion for writing but still a *work-in-progress.*  Check out my [latest blogs](/blogs) on [topics](/topics) I find fascinating. Wanna [know more](/about) or just chat? Reach me at alonshstha@gmail.com. Let's connect and geek out together! ✌️
+[👋 Hi, I'm Alon!](#) With a background in Computer Science, I'm passionate about ☁️ Cloud, 🔒 Security, 🛠️ DevOps, and 🤖 Automation - you guessed it - orchestrating the whole infrastructure. Apart from tech, I love doing music 🎸, travelling ⛰️ and sometimes fitness 🏋️‍♂️. Lately, I've developed a passion for writing, leading to the birth of this website (still a work-in-progress). [Curious for more](/about) or up for a chat? Drop me a line at alonshstha@gmail.com.
 """
 [[params.socialIcons]]
 name = "twitter"
