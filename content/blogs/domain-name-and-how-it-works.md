@@ -4,7 +4,7 @@ draft: true
 title:  "What is a Domain Name? How does it work?"
 heading: "What is a Website Domain Name and how does it work?"
 image: what-is-domain-name-how-it-works/what-is-domain-name.webp
-categories: [domain]
+categories: [Cloud]
 tags: 
 - Domain-Name
 - godaddy

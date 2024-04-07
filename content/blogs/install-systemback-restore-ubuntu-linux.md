@@ -4,7 +4,7 @@ title: "How to Restore Ubuntu with Systemback"
 pageheading: "How to Install Systemback and Restore Ubuntu Linux"
 date: 2019-07-21
 description: "Guide to install systemback on Ubuntu and restore it creating backup image without losing data."
-topics: [Linux, Backup & Restore]
+topics: [Linux]
 tags: [Ubuntu]
 draft: false
 # cover:

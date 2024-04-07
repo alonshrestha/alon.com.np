@@ -4,7 +4,7 @@ title: "A Quick & Easy Guide To Web Hosting"
 date: "2020-01-11"
 description: "Guide to web hosting for beginners. Learn about websites, web hosting, and how to host a website easily."
 tags: ["website", "webhosting"]
-topics: ["Web Hosting"]
+topics: ["Cloud"]
 # series: ["Themes Guide"]
 # aliases: ["migrate-from-jekyl"]
 cover:

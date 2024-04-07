@@ -4,7 +4,7 @@ draft: true
 title:  "Shared vs VPS vs Dedicated vs Cloud Hosting"
 heading: "Shared, VPS, Dedicated and Cloud Hosting"
 image: shared-vps-dedicated-cloud-hosting-comparison/main.webp
-categories: [webhosting]
+categories: [Cloud]
 tags: 
 - Shared-Hosting
 - VPS-Hosting
