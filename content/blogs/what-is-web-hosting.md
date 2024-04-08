@@ -30,7 +30,7 @@ A website is set of web pages where we can write text, attach files, add media a
 
 You're currently reading this on a web page. 
 
-If you scroll to the top, you'll see the title *'@alonshrestha'*. This title is a link, also known as a hyperlink, which connects to another web page.
+If you scroll to the top, you'll see the title *'@alonshrestha'*. This title is associated with a link, also known as a hyperlink in website world, which connects to another web page.
 
 The collection of these connected web pages are called a website. 
 
@@ -45,14 +45,15 @@ In simpler terms, uploading a website on the internet is web hosting.
 
 It is similar to uploading a video on YouTube or creating a post on social media.
 
-**But how is a website uploaded on the internet?**
+**But how are websites put on the interent?**
 
-Websites are uploaded on the servers. 
+They are uploaded to the servers. 
 
 ![Uploading website on a server](/images/posts/what-is-webhosting/2.gif)
 
+A server is a powerful computer that stays connected to the internet constantly. Its major job is to fulfill user requests, such as when you visit a website in your browser. 
 
-A server is a powerful computer that stays connected to the internet constantly. Its major job is to fulfill user requests, such as ours.
+It's the server that sends the website and its data to your browser.
 
 Every website you visit is hosted on a server.
 
@@ -64,36 +65,27 @@ They provide web hosting, email hosting, domain registration, and other differen
 
 {{< newtabref  href="https://www.hostinger.com/" title="Hostinger" rel="nofollow">}}, {{< newtabref  href="https://www.bluehost.com/" title="Bluehost" rel="nofollow">}} are some of the well known web hosts you can find on the internet. 
 
-So, web hosting is basically buying a server, putting your website on it, and making it available to everyone.
+So, web hosting is basically buying a server, putting your website to it, and making it available to everyone.
 
 ## How does Web Hosting Work?
 
 The way web hosting works is pretty cool.
 
-The hosting provider sets up a server for you, where you can log in with a username and password.
+The hosting provider sets up a server for you, where you can get inside with a username and password.
+
+These servers come with storage and an IP address. The storage is used to store your website files, while the IP address creates a way to the internet, allowing others to access your website.
 
 Once logged in, you can upload your website.
 
-These servers have storage for your website files and an IP address that points to your website.
-
-**How to upload a website on a server?**
-
-There are different methods to upload a website on a server. 
-
-You can simply drag and drop your website files on a server using a browser, select and upload it using an application or transfer it using commands through terminal. 
-
-These methods vary on the web host you choose.
-
-After you upload a website, it's hosted on the server's IP address.
+After you upload a website, it becomes accessible via that server's IP address.
 
 To make it more professional and user-friendly, people use a domain name instead of the IP address.
 
 ![How does domain name maps with ip address?](/images/posts/what-is-webhosting/3.webp)
 
-
 The domain name essentially masks the IP address of the server.
 
-So whenever you enter the domain name, it takes you to that specific IP address where the website is hosted.
+So whenever you enter the domain name, it takes you to that specific IP address of the server where the website is uploaded.
 
 <!-- <div style="background-color: #e7f3fe;border-left: 6px solid #2196F3;" class="info">
   <p><strong>Related Post: </strong></p>
@@ -107,7 +99,7 @@ As mentioned earlier, to host a website, you need a server.
 
 There are various types of hosting servers available in the market.
 
-For instance, a small startup or a new blog might need a server with fewer resources, while a large e-commerce site with heavy traffic would require a high-spec server.
+For instance, a small startup or a new blog website might need a server with fewer resources, while a large e-commerce site with heavy traffic would require a high-spec server.
 
 It's crucial to understand your website's needs before purchasing a server. Otherwise, web hosting can become expensive and frustrating.
 
@@ -135,7 +127,3 @@ If you are clueless about picking the right web host provider, then you can choo
 - {{< newtabref  href="https://www.siteground.com/" title="SiteGround" rel="nofollow">}}
 
 They are the most trusted and renowned ones. Additionally, Hostinger is the most affordable and top pick for most of the users.
-
-Finally, We’ve come to the end of this article and I hope you’ve enjoyed reading it as much as I’ve enjoyed writing it. 
-
-Please feel free to write to me if you have any concerns related to this post.
